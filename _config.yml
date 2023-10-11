@@ -74,22 +74,22 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: dhananjay-bhaskar-53391362
 telegram_username: # your Telegram user name
 scholar_userid: 9vji8eoAAAAJ
-semanticscholar_id: 48452727
+semanticscholar_id: # 48452727
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # 0000-0001-8068-3101
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: qnhge # your OSF ID
-research_gate_profile: Dhananjay-Bhaskar-2 # your profile on ResearchGate
+osf_id: # qnhge # your OSF ID
+research_gate_profile: # Dhananjay-Bhaskar-2 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
-keybase_username: dbhaskar92 # your keybase user name
+keybase_username: # dbhaskar92 # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: https://dblp.org/pid/215/8000 # your DBLP profile url
+dblp_url: # https://dblp.org/pid/215/8000 # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
@@ -211,7 +211,7 @@ exclude:
   - _pages/projects.md
   - _pages/blog.md
   - _pages/teaching.md
-  - _pages/publications.md
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll

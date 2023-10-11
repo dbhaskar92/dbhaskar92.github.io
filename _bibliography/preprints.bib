@@ -1,0 +1,58 @@
+@misc{tong_learnable_2022,
+	title = {Learnable {Filters} for {Geometric} {Scattering} {Modules}},
+	url = {http://arxiv.org/abs/2208.07458},
+	doi = {10.48550/arXiv.2208.07458},
+	abstract = {We propose a new graph neural network (GNN) module, based on relaxations of recently proposed geometric scattering transforms, which consist of a cascade of graph wavelet filters. Our learnable geometric scattering (LEGS) module enables adaptive tuning of the wavelets to encourage band-pass features to emerge in learned representations. The incorporation of our LEGS-module in GNNs enables the learning of longer-range graph relations compared to many popular GNNs, which often rely on encoding graph structure via smoothness or similarity between neighbors. Further, its wavelet priors result in simplified architectures with significantly fewer learned parameters compared to competing GNNs. We demonstrate the predictive performance of LEGS-based networks on graph classification benchmarks, as well as the descriptive quality of their learned features in biochemical graph data exploration tasks. Our results show that LEGS-based networks match or outperforms popular GNNs, as well as the original geometric scattering construction, on many datasets, in particular in biochemical domains, while retaining certain mathematical properties of handcrafted (non-learned) geometric scattering.},
+	urldate = {2023-07-24},
+	publisher = {arXiv},
+	author = {Tong, Alexander and Wenkel, Frederik and Bhaskar, Dhananjay and Macdonald, Kincaid and Grady, Jackson and Perlmutter, Michael and Krishnaswamy, Smita and Wolf, Guy},
+	month = aug,
+	year = {2022},
+	note = {arXiv:2208.07458 [cs]},
+	keywords = {Computer Science - Machine Learning},
+	abbr = {arXiv}
+}
+
+@misc{bhaskar_capturing_2023,
+	title = {Capturing {Spatiotemporal} {Signaling} {Patterns} in {Cellular} {Data} with {Geometric} {Scattering} {Trajectory} {Homology}},
+	copyright = {© 2023, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	url = {https://www.biorxiv.org/content/10.1101/2023.03.22.533807v1},
+	doi = {10.1101/2023.03.22.533807},
+	abstract = {Cells communicate with one another through a variety of signaling mechanisms. Exchange of information via these mechanisms allows cells to coordinate their behaviour and respond to environmental stress and other stimuli. To facilitate quantitative understanding of complex spatiotemporal signaling activity, we developed Geometric Scattering Trajectory Homology, a general framework that encapsulates time-lapse signals on a cell adjacency graph in a low-dimensional trajectory. We tested this framework using computational models of collective oscillations and calcium signaling in the Drosophila wing imaginal disc, as well as experimental data, including in vitro ERK signaling in human mammary epithelial cells and in vivo calcium signaling from the mouse epidermis and visual cortex. We found that the geometry and topology of the trajectory are related to the degree of synchrony (over space and time), intensity, speed, and quasi-periodicity of the signaling pattern. We recovered model parameters and experimental conditions by training neural networks on trajectory data, showing that our approach preserves information that characterizes various cell types, tissues and drug treatments. We envisage the applicability of our framework in various biological contexts to generate new insights into cell communication.},
+	language = {en},
+	urldate = {2023-07-24},
+	publisher = {bioRxiv},
+	author = {Bhaskar, Dhananjay and Moore, Jessica and Gao, Feng and Rieck, Bastian and Khasawneh, Firas and Munch, Elizabeth and Greco, Valentina and Krishnaswamy, Smita},
+	month = mar,
+	year = {2023},
+	abbr = {bioRxiv}
+}
+
+@misc{bhaskar_inferring_2023,
+	title = {Inferring dynamic regulatory interaction graphs from time series data with perturbations},
+	url = {http://arxiv.org/abs/2306.07803},
+	doi = {10.48550/arXiv.2306.07803},
+	abstract = {Complex systems are characterized by intricate interactions between entities that evolve dynamically over time. Accurate inference of these dynamic relationships is crucial for understanding and predicting system behavior. In this paper, we propose Regulatory Temporal Interaction Network Inference (RiTINI) for inferring time-varying interaction graphs in complex systems using a novel combination of space-and-time graph attentions and graph neural ordinary differential equations (ODEs). RiTINI leverages time-lapse signals on a graph prior, as well as perturbations of signals at various nodes in order to effectively capture the dynamics of the underlying system. This approach is distinct from traditional causal inference networks, which are limited to inferring acyclic and static graphs. In contrast, RiTINI can infer cyclic, directed, and time-varying graphs, providing a more comprehensive and accurate representation of complex systems. The graph attention mechanism in RiTINI allows the model to adaptively focus on the most relevant interactions in time and space, while the graph neural ODEs enable continuous-time modeling of the system's dynamics. We evaluate RiTINI's performance on various simulated and real-world datasets, demonstrating its state-of-the-art capability in inferring interaction graphs compared to previous methods.},
+	urldate = {2023-07-24},
+	publisher = {arXiv},
+	author = {Bhaskar, Dhananjay and Magruder, Sumner and De Brouwer, Edward and Venkat, Aarthi and Wenkel, Frederik and Wolf, Guy and Krishnaswamy, Smita},
+	month = jun,
+	year = {2023},
+	note = {arXiv:2306.07803 [cs]},
+	keywords = {Computer Science - Machine Learning},
+	abbr = {arXiv}
+}
+
+@misc{bhaskar_graph_2023,
+	title = {Graph topological property recovery with heat and wave dynamics-based features on graphs},
+	url = {http://arxiv.org/abs/2309.09924},
+	doi = {10.48550/arXiv.2309.09924},
+	abstract = {In this paper, we propose Graph Differential Equation Network (GDeNet), an approach that harnesses the expressive power of solutions to PDEs on a graph to obtain continuous node- and graph-level representations for various downstream tasks. We derive theoretical results connecting the dynamics of heat and wave equations to the spectral properties of the graph and to the behavior of continuous-time random walks on graphs. We demonstrate experimentally that these dynamics are able to capture salient aspects of graph geometry and topology by recovering generating parameters of random graphs, Ricci curvature, and persistent homology. Furthermore, we demonstrate the superior performance of GDeNet on real-world datasets including citation graphs, drug-like molecules, and proteins.},
+	urldate = {2023-10-09},
+	publisher = {arXiv},
+	author = {Bhaskar, Dhananjay and Zhang, Yanlei and Xu, Charles and Sun, Xingzhi and Fasina, Oluwadamilola and Wolf, Guy and Nickel, Maximilian and Perlmutter, Michael and Krishnaswamy, Smita},
+	month = sep,
+	year = {2023},
+	note = {arXiv:2309.09924 [cs, eess, stat]},
+	abbr = {arXiv}
+}

@@ -6,12 +6,12 @@ layout: default
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+
     #academiccontainer {
       width: 100%;
       display: block;
     
     }
-
 
     @media (min-width:500px){
       .bioword1 {
@@ -21,8 +21,6 @@ layout: default
         float:right;
       }
     }
-    
-
 
     @media (max-width:500px)  {
     .bioword1 {
@@ -62,15 +60,6 @@ layout: default
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
-              {%- if page.profile.address %}
-              <div class="address">
-                {{ page.profile.address }}<br>
-                <div class="social">
-                  <div class="contact-icons">
-                    {% include social.html %}
-                  </div>  
-                </div>
-              </div>
               {%- endif %}
               {%- if page.social %}
           
@@ -80,6 +69,12 @@ layout: default
           </div>
           {%- endif %}
 
+          <div class="social">
+            <div class="contact-icons">
+              {% include social.html %}
+            </div>  
+          </div>
+ 
           <div class="clearfix">
             {{ content }}
           </div>

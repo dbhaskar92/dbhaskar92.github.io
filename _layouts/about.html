@@ -1,12 +1,47 @@
 ---
 layout: default
 ---
-
 <!-- about.html -->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #academiccontainer {
+      width: 100%;
+      display: block;
+    
+    }
+
+
+    @media (min-width:500px){
+      .bioword1 {
+        float:left;
+      }
+      .bioword2 {
+        float:right;
+      }
+    }
+    
+
+
+    @media (max-width:500px)  {
+    .bioword1 {
+      float:top !important;
+    }
+    .bioword2 {
+      float:bottom !important;
+    }
+  }
+ 
+  </style>
+  
+
+</head>
+
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -26,20 +61,73 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
-            </div>
+              alt=page.profile.image -%}
+              {%- if page.profile.address %}
+              <div class="address">
+                {{ page.profile.address }}<br>
+                <div class="social">
+                  <div class="contact-icons">
+                    {% include social.html %}
+                  </div>  
+                </div>
+              </div>
+              {%- endif %}
+              {%- if page.social %}
+          
             {%- endif %}
+            {% endif -%}
+       
           </div>
           {%- endif %}
 
           <div class="clearfix">
             {{ content }}
           </div>
+          <hr>
+
+          <div id = "academiccontainer">
+            <p style="font-size: 25px; font-weight:bold">Academic Positions</p>
+            
+            <div class = "bioword1" style="font-weight:bold">Yale University</div>
+            <div class = "bioword2">New Haven, CT</div>
+            <br>
+            <div class ="bioword1">Postdoctoral Research Associate</div>
+            <div class="bioword2">2021 - present</div>
+            <br> <br>
+    
+            <div class = "bioword1" style="font-weight:bold">Brown University</div>
+            <div class = "bioword2">Providence, RI</div>
+            <br>
+            <div class = "bioword1">Visiting Scholar in Engineering</div>
+            <div class = "bioword2">2021 - present</div><br>
+            <br><hr>
+          </div>          
+
+          <div id = "academiccontainer">
+            <p style="font-size: 25px; font-weight:bold">Education</p>
+            
+              <div class = "bioword1" style="font-weight:bold">Brown University</div>
+              <div class="bioword2">Providence, RI</div>
+            <br>
+              <div class = "bioword1">Ph.D. in Biomedical Engineering</div>
+              <div class="bioword2">2021</div>
+            <br>
+              <div class="bioword1">Sc.M. in Data Science</div>
+              <div class="bioword2">2021</div>
+              <br><br>
+
+              <div class="bioword1" style="font-weight:bold">University of British Columbia</div>
+              <div class="bioword2">Vancouver, Canada</div>
+              <br>
+              <div class="bioword1">M.Sc. in Applied Mathematics with <span style="font-style: italic;">Highest Distinction</span></div>
+              <div class="bioword2">2017</div>
+              <br> 
+              <div class="bioword1">B.Sc. in Computer Science and Mathematics with <span style="font-style: italic;">Distinction</span></div>
+              <div class="bioword2">2015</div>
+            <br><hr>
+          </div>  
+
+          <br>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
@@ -63,11 +151,11 @@ layout: default
           {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
-                {% include social.html %}
+             <!--   {% include social.html %}-->
               </div>
 
               <div class="contact-note">
-                {{ site.contact_note }}
+             <!--   {{ site.contact_note }}-->
               </div>
 
             </div>

@@ -1,3 +1,32 @@
+@misc{viswanath_protscape_2024,
+	title = {{ProtSCAPE}: {Mapping} the landscape of protein conformations in molecular dynamics},
+	url = {http://arxiv.org/abs/2410.20317},
+	doi = {10.48550/arXiv.2410.20317},
+	abstract = {Understanding the dynamic nature of protein structures is essential for comprehending their biological functions. While significant progress has been made in predicting static folded structures, modeling protein motions on microsecond to millisecond scales remains challenging. To address these challenges, we introduce a novel deep learning architecture, Protein Transformer with Scattering, Attention, and Positional Embedding (ProtSCAPE), which leverages the geometric scattering transform alongside transformer-based attention mechanisms to capture protein dynamics from molecular dynamics (MD) simulations. ProtSCAPE utilizes the multi-scale nature of the geometric scattering transform to extract features from protein structures conceptualized as graphs and integrates these features with dual attention structures that focus on residues and amino acid signals, generating latent representations of protein trajectories. Furthermore, ProtSCAPE incorporates a regression head to enforce temporally coherent latent representations.},
+	urldate = {2024-10-31},
+	publisher = {arXiv},
+	author = {Viswanath, Siddharth and Bhaskar, Dhananjay and Johnson, David R. and Rocha, Joao Felipe and Castro, Egbert and Grady, Jackson D. and Grigas, Alex T. and Perlmutter, Michael A. and O'Hern, Corey S. and Krishnaswamy, Smita},
+	month = oct,
+	year = {2024},
+	note = {arXiv:2410.20317},
+	abbr = {arXiv}
+}
+
+@misc{bhaskar_neuro-gsth_2024,
+	title = {Neuro-{GSTH}: {A} {Geometric} {Scattering} and {Persistent} {Homology} {Framework} for {Uncovering} {Spatiotemporal} {Signatures} in {Neural} {Activity}},
+	url = {https://www.biorxiv.org/content/10.1101/2023.03.22.533807v2},
+	doi = {10.1101/2023.03.22.533807},
+	abstract = {Understanding how neurons communicate and coordinate their activity is essential for unraveling the brain’s complex functionality. To analyze the intricate spatiotemporal dynamics of neural signaling, we developed Geometric Scattering Trajectory Homology (neuro-GSTH), a novel framework that captures time-evolving neural signals and encodes them into low-dimensional representations. GSTH integrates geometric scattering transforms, which extract multiscale features from brain signals modeled on anatomical graphs, with t-PHATE, a manifold learning method that maps the temporal evolution of neural activity. Topological descriptors from computational homology are then applied to characterize the global structure of these neural trajectories, enabling the quantification and differentiation of spatiotemporal brain dynamics.
+We demonstrate the power of neuro-GSTH in neuroscience by applying it to both simulated and biological neural datasets. First, we used neuro-GSTH to analyze neural oscillatory behavior in the Kuramoto model, revealing its capacity to track the synchronization of neural circuits as coupling strength increases. Next, we applied neuro-GSTH to neural recordings from the visual cortex of mice, where it accurately reconstructed visual stimulus patterns such as sinusoidal gratings. Neuro-GSTH-derived neural trajectories enabled precise classification of stimulus properties like spatial frequency and orientation, significantly outperforming traditional methods in capturing the underlying neural dynamics. These findings demonstrate that neuro-GSTH effectively identifies neural motifs—distinct patterns of spatiotemporal activity—providing a powerful tool for decoding brain activity across diverse tasks, sensory inputs, and neurological disorders. Neuro-GSTH thus offers new insights into neural communication and dynamics, advancing our ability to map and understand complex brain functions.},
+	language = {en},
+	urldate = {2024-10-31},
+	publisher = {bioRxiv},
+	author = {Bhaskar, Dhananjay and Moore, Jessica and Zhang, Yanlei and Gao, Feng and Rieck, Bastian and Wolf, Guy and Pushkarskaya, Helen and Khasawneh, Firas and Munch, Elizabeth and Greco, Valentina and Pittenger, Christopher and Krishnaswamy, Smita},
+	month = oct,
+	year = {2024},
+	abbr = {bioRxiv}
+}
+
 @misc{winn-nunez_generative_2024,
 	title = {Generative modeling of biological shapes and images using a probabilistic α-shape sampler},
 	copyright = {All rights reserved},
@@ -28,19 +57,31 @@
 	abbr = {bioRxiv}
 }
 
-@misc{bhaskar_capturing_2023,
-	title = {Capturing {Spatiotemporal} {Signaling} {Patterns} in {Cellular} {Data} with {Geometric} {Scattering} {Trajectory} {Homology}},
-	copyright = {© 2023, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
-	url = {https://www.biorxiv.org/content/10.1101/2023.03.22.533807v1},
-	doi = {10.1101/2023.03.22.533807},
-	abstract = {Cells communicate with one another through a variety of signaling mechanisms. Exchange of information via these mechanisms allows cells to coordinate their behaviour and respond to environmental stress and other stimuli. To facilitate quantitative understanding of complex spatiotemporal signaling activity, we developed Geometric Scattering Trajectory Homology, a general framework that encapsulates time-lapse signals on a cell adjacency graph in a low-dimensional trajectory. We tested this framework using computational models of collective oscillations and calcium signaling in the Drosophila wing imaginal disc, as well as experimental data, including in vitro ERK signaling in human mammary epithelial cells and in vivo calcium signaling from the mouse epidermis and visual cortex. We found that the geometry and topology of the trajectory are related to the degree of synchrony (over space and time), intensity, speed, and quasi-periodicity of the signaling pattern. We recovered model parameters and experimental conditions by training neural networks on trajectory data, showing that our approach preserves information that characterizes various cell types, tissues and drug treatments. We envisage the applicability of our framework in various biological contexts to generate new insights into cell communication.},
-	language = {en},
-	urldate = {2023-07-24},
-	publisher = {bioRxiv},
-	author = {Bhaskar, Dhananjay and Moore, Jessica and Gao, Feng and Rieck, Bastian and Khasawneh, Firas and Munch, Elizabeth and Greco, Valentina and Krishnaswamy, Smita},
-	month = mar,
-	year = {2023},
-	abbr = {bioRxiv}
+@misc{afrasiyabi_latent_2024,
+	title = {Latent {Representation} {Learning} for {Multimodal} {Brain} {Activity} {Translation}},
+	url = {http://arxiv.org/abs/2409.18462},
+	abstract = {Neuroscience employs diverse neuroimaging techniques, each offering distinct insights into brain activity, from electrophysiological recordings such as EEG, which have high temporal resolution, to hemodynamic modalities such as fMRI, which have increased spatial precision. However, integrating these heterogeneous data sources remains a challenge, which limits a comprehensive understanding of brain function. We present the Spatiotemporal Alignment of Multimodal Brain Activity (SAMBA) framework, which bridges the spatial and temporal resolution gaps across modalities by learning a unified latent space free of modality-specific biases. SAMBA introduces a novel attention-based wavelet decomposition for spectral filtering of electrophysiological recordings, graph attention networks to model functional connectivity between functional brain units, and recurrent layers to capture temporal autocorrelations in brain signal. We show that the training of SAMBA, aside from achieving translation, also learns a rich representation of brain information processing. We showcase this classify external stimuli driving brain activity from the representation learned in hidden layers of SAMBA, paving the way for broad downstream applications in neuroscience research and clinical contexts.},
+	urldate = {2024-10-06},
+	publisher = {arXiv},
+	author = {Afrasiyabi, Arman and Bhaskar, Dhananjay and Busch, Erica L. and Caplette, Laurent and Singh, Rahul and Lajoie, Guillaume and Turk-Browne, Nicholas B. and Krishnaswamy, Smita},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2409.18462 [cs, q-bio]},
+	abbr = {arXiv}
+}
+
+@misc{afrasiyabi_looking_2024,
+	title = {Looking through the mind's eye via multimodal encoder-decoder networks},
+	url = {http://arxiv.org/abs/2410.00047},
+	doi = {10.48550/arXiv.2410.00047},
+	abstract = {In this work, we explore the decoding of mental imagery from subjects using their fMRI measurements. In order to achieve this decoding, we first created a mapping between a subject's fMRI signals elicited by the videos the subjects watched. This mapping associates the high dimensional fMRI activation states with visual imagery. Next, we prompted the subjects textually, primarily with emotion labels which had no direct reference to visual objects. Then to decode visual imagery that may have been in a person's mind's eye, we align a latent representation of these fMRI measurements with a corresponding video-fMRI based on textual labels given to the videos themselves. This alignment has the effect of overlapping the video fMRI embedding with the text-prompted fMRI embedding, thus allowing us to use our fMRI-to-video mapping to decode. Additionally, we enhance an existing fMRI dataset, initially consisting of data from five subjects, by including recordings from three more subjects gathered by our team. We demonstrate the efficacy of our model on this augmented dataset both in accurately creating a mapping, as well as in plausibly decoding mental imagery.},
+	urldate = {2024-10-06},
+	publisher = {arXiv},
+	author = {Afrasiyabi, Arman and Busch, Erica and Singh, Rahul and Bhaskar, Dhananjay and Caplette, Laurent and Turk-Browne, Nicholas and Krishnaswamy, Smita},
+	month = sep,
+	year = {2024},
+	note = {arXiv:2410.00047 [cs, eess, q-bio]},
+	abbr = {arXiv}
 }
 
 @misc{bhaskar_graph_2023,

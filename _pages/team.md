@@ -163,11 +163,10 @@ nav_order: 3
 
 <div class="team-member">
   <span class="team-member-name">Kritika Kumari</span>
-  <span class="team-member-info">Biophysics · MS'26</span>
+  <span class="team-member-info">Biophysics · MS'26 · now PhD student at Max Planck Institute for Biology</span>
   <span class="team-links">
     <a href="https://scholar.google.com/citations?user=uDncdtbr7lwC&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
   </span>
-  <span class="team-alumni-note">· now PhD student at Max Planck Institute for Biology</span>
 </div>
 
 <div class="team-member">

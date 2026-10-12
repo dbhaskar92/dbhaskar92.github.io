@@ -46,7 +46,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <em>{{author.first}} {{author.last}}</em>{%- if entry.corresponding == "true" %}<sup>#</sup>{%- endif -%}
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -94,7 +94,7 @@
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- capture entrytype -%}<em>{{ entry.journal | replace: "arXiv preprint ", "" }}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
           {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}

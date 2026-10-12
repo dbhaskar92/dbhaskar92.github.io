@@ -51,7 +51,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -210,7 +210,6 @@ exclude:
   - _pages/repositories.md
   - _pages/projects.md
   - _pages/blog.md
-  - _pages/teaching.md
   - _pages/profiles.md
 keep_files:
   - CNAME

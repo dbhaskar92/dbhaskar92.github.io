@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 <style>
-.publications ol.bibliography { margin-top: 1.5rem; }
+.publications ol.bibliography { margin-top: 3.0rem; }
 </style>
 
 <div style="margin-bottom: 1.5rem;">

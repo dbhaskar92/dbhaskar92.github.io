@@ -124,6 +124,7 @@ nav_order: 3
 <div class="team-member">
   <span class="team-member-name">Barkai Lazimy</span>
   <span class="team-links">
+    <a href="https://bitarmada.github.io/Portfolio/" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
     <a href="https://www.linkedin.com/in/barkai-lazimy" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
   </span>
 </div>

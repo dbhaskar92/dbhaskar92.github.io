@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Dhananjay
 middle_name: 
 last_name: Bhaskar
-email: dhananjay.bhaskar@yale.edu
+email: dhananjay.bhaskar@wisc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic webpage for Dhananjay Bhaskar based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

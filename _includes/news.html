@@ -1,16 +1,12 @@
           <div class="news">
             {% if site.news != blank -%}
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
+            {%- assign news_all = site.news | reverse -%}
+            {%- assign news_size = news_all | size -%}
+            {%- assign news_limit = site.announcements.limit | default: 5 -%}
+            <div class="table-responsive">
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if include.limit and site.announcements.limit %}
-              {% assign news_limit = site.announcements.limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %}
-                <tr>
+              {% for item in news_all %}
+                <tr{% if forloop.index > news_limit %} class="news-extra" style="display:none"{% endif %}>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
@@ -23,6 +19,17 @@
               {%- endfor %}
               </table>
             </div>
+            {% if news_size > news_limit %}
+            <div class="text-center mt-1">
+              <button id="news-toggle-btn" class="btn btn-sm z-depth-0" onclick="
+                var rows = document.querySelectorAll('.news-extra');
+                var btn = document.getElementById('news-toggle-btn');
+                var hidden = rows[0].style.display === 'none';
+                rows.forEach(function(r){ r.style.display = hidden ? '' : 'none'; });
+                btn.textContent = hidden ? 'Show less' : 'Show more';
+              ">Show more</button>
+            </div>
+            {% endif %}
           {%- else -%}
             <p>No news so far...</p>
           {%- endif %}

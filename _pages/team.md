@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 <style>
+h1.post-title { display: none; }
 .team-section { margin-bottom: 2.5rem; }
 .team-section h2 { font-size: 1.2rem; font-weight: 600; border-bottom: 1px solid #dee2e6; padding-bottom: 0.4rem; margin-bottom: 1rem; }
 .team-member { display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.55rem; font-size: 0.97rem; }

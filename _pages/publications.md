@@ -7,6 +7,7 @@ nav: true
 nav_order: 1
 ---
 <style>
+h1.post-title { display: none; }
 .publications ol.bibliography { margin-top: 3.0rem; }
 </style>
 

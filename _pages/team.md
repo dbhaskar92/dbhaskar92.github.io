@@ -36,6 +36,7 @@ h1.post-title { display: none; }
   <span class="team-member-name">Colin Mikulski</span>
   <span class="team-member-info">Biophysics</span>
   <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=hfpEUs8AAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
     <a href="https://www.linkedin.com/in/colin-mikulski" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
   </span>
 </div>

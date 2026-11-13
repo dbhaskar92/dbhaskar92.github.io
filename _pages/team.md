@@ -166,6 +166,25 @@ h1.post-title { display: none; }
 
 
 <div class="team-section">
+<h2>Alumni</h2>
+
+<div class="team-member">
+  <span class="team-member-name">Kritika Kumari</span>
+  <span class="team-member-info">Biophysics · MS'26 · now PhD student at Max Planck Institute for Biology</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=uDncdtbr7lwC&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Merlin Morton</span>
+  <span class="team-member-info">Postbac · Summer 2026</span>
+  <span class="team-alumni-note">· now MS student at Cornell</span>
+</div>
+
+</div>
+
+<div class="team-section">
 <h2>External Collaborators</h2>
 
 <div class="team-member">
@@ -212,25 +231,6 @@ h1.post-title { display: none; }
   <span class="team-links">
     <a href="https://scholar.google.com/citations?user=et2kk78AAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
   </span>
-</div>
-
-</div>
-
-<div class="team-section">
-<h2>Alumni</h2>
-
-<div class="team-member">
-  <span class="team-member-name">Kritika Kumari</span>
-  <span class="team-member-info">Biophysics · MS'26 · now PhD student at Max Planck Institute for Biology</span>
-  <span class="team-links">
-    <a href="https://scholar.google.com/citations?user=uDncdtbr7lwC&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
-  </span>
-</div>
-
-<div class="team-member">
-  <span class="team-member-name">Merlin Morton</span>
-  <span class="team-member-info">Postbac · Summer 2026</span>
-  <span class="team-alumni-note">· now MS student at Cornell</span>
 </div>
 
 </div>

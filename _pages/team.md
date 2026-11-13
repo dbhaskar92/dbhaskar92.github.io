@@ -50,6 +50,7 @@ h1.post-title { display: none; }
   <span class="team-member-name">Jens Lundsgaard</span>
   <span class="team-links">
     <a href="https://scholar.google.com/citations?user=hChMDMMAAAAJ&hl=en&oi=sra" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://jenslundsgaard.github.io/pages/" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
   </span>
 </div>
 

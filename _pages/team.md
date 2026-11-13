@@ -164,6 +164,58 @@ h1.post-title { display: none; }
 
 </div>
 
+
+<div class="team-section">
+<h2>External Collaborators</h2>
+
+<div class="team-member">
+  <span class="team-member-name">Andreas Buttenschoen</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=FVEXMasAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://www.buttenschoen.ca/" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Inés García-Redondo</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=QJugIzgAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Shubhajit Roy</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=W2WQapAAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://roy-shubhajit.github.io/" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Suraj Yadav</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=0APa9NYAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://www.hertie.ai/independent-research-groups/team/members/suraj-yadav" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Nikita Malik</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=Nk26UdwAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://sites.google.com/view/nikitamalik" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
+  </span>
+</div>
+
+<div class="team-member">
+  <span class="team-member-name">Mohit Kataria</span>
+  <span class="team-links">
+    <a href="https://scholar.google.com/citations?user=et2kk78AAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+  </span>
+</div>
+
+</div>
+
 <div class="team-section">
 <h2>Alumni</h2>
 

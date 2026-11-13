@@ -41,6 +41,11 @@ h1.post-title { display: none; }
   </span>
 </div>
 
+<div class="team-member">
+  <span class="team-member-name">Connor Donahue</span>
+  <span class="team-member-info">(previously postbac during Summer 2026)</span>
+</div>
+
 </div>
 
 <div class="team-section">
@@ -54,9 +59,6 @@ h1.post-title { display: none; }
   </span>
 </div>
 
-<div class="team-member">
-  <span class="team-member-name">Connor Donahue</span>
-</div>
 
 </div>
 

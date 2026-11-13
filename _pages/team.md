@@ -43,7 +43,7 @@ h1.post-title { display: none; }
 
 <div class="team-member">
   <span class="team-member-name">Connor Donahue</span>
-  <span class="team-member-info">(previously postbac during Summer 2026)</span>
+  <span class="team-member-info">Biophysics (previously postbac during Summer 2026)</span>
 </div>
 
 </div>
@@ -199,6 +199,7 @@ h1.post-title { display: none; }
   <span class="team-member-name">Inés García-Redondo</span>
   <span class="team-links">
     <a href="https://scholar.google.com/citations?user=QJugIzgAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://ines.topology.rocks/" title="Website" target="_blank" rel="noopener"><i class="fas fa-globe"></i></a>
   </span>
 </div>
 
